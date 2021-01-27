@@ -41,10 +41,10 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <url>http://downloads.corsair.com/Files/CUE/CUESDK_3.0.234.zip</url>
+                            <url>https://github.com/CorsairOfficial/cue-sdk/releases/download/v3.0.361/CUESDK_3.0.361.zip</url>
                             <outputFileName>cuesdk.zip</outputFileName>
                             <outputDirectory>${project.build.directory}</outputDirectory>
-                            <md5>332bbf042e8b358430133cac6a896e9c</md5>
+                            <md5>6de6bb8eac8c781919e983bf1849ee26</md5>
                         </configuration>
                     </execution>
                 </executions>
