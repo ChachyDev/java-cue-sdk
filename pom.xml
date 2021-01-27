@@ -59,10 +59,8 @@
                         <configuration>
                             <target>
                                 <unzip src="${project.build.directory}/cuesdk.zip" dest="${project.build.directory}/" />
-                                <move file="${project.build.directory}/CUESDK/redist/x64/CUESDK.x64_2015.dll"
-                                      tofile="${basedir}/src/main/resources/win32-x86-64/CueSDK.dll" />
-                                <move file="${project.build.directory}/CUESDK/redist/i386/CUESDK_2015.dll"
-                                      tofile="${basedir}/src/main/resources/win32-x86/CueSDK.dll" />
+                                <move file="${project.build.directory}/CUESDK/redist/x64/CUESDK.x64_2017.dll"
+                                      tofile="${basedir}/src/main/resources/CueSDK.dll" />
                             </target>
                         </configuration>
                         <goals>
